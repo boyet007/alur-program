@@ -1,3 +1,85 @@
 youtube : https://www.youtube.com/watch?v=00YEXqRGJrg&t=2074s
 git : https://github.com/codekerala/laravel-vue-js-spa-invoice
 
+- laravel create : laravel new spa-invoice
+- set .env files
+- php artisan make:model Counter -m  -> isi file migration
+- isi file Counter.php model nya
+- balik lagi ke migration counter -> use App\Counter jgn lupa
+
+- php artisan make:model Product -mc
+- isi file product migration nya..
+- buat model Product  
+- seed product
+
+- php artisan make:model Customer -mc
+- buat migration customer
+- buat model customernya
+- seed
+
+- php artisan make:model Invoice -mc
+- php artisan make:model InvoiceItem -> ga perlu buat migration file-> jadikan satu aja ma invoices
+- buat migration untuk invoices dan invoice_items
+- buat model invoice nya..tambahkan function setSubTotalAttributes($value)
+- buat model InvoiceItem
+- InvoiceTableSeeder
+
+- masuk routing laravel
+- tambahkan api/customers, api/products, api/invoices
+
+- isi productcontroller
+- test api dengan postman
+- isi customercontroller
+
+- buat helper relationship -> app\Helper\HasManyRelation.php
+- masuk model invoice -> use App\Helper\HasMany
+- buat invoicecontroller
+- test api invoices
+
+- laravel mix
+
+- npm install --save vue vue-router axios
+- normalize.css
+
+- masuk welcome.blade.php
+- set app.css dan app.js
+
+- buat router js -> js/router/index.js
+- buat App.vue
+- buat app.js
+- buat folder : js\lib\api.js -> isi filenya
+- buat folder : js\views\invoices\index.js 
+- buat folder : js\views\invoices\show.js -> format money dipakai disini
+
+- buat folder : js\components\typehead\index.js
+- buat folder : js\components\typehead\Typehead.vue
+- isi index.js nya
+- isi Typehead.vue nya
+
+- buat folder : js\views\invoices\form.vue
+
+- validation -> resources\lang\en\validation.php
+
+- buat buat folder : js\progress\index.js 
+- buat folder : js\progress\Progress.vue 
+- set bar ke app.js
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
