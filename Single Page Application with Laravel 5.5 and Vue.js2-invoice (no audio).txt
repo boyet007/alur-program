@@ -1,0 +1,3 @@
+youtube : https://www.youtube.com/watch?v=00YEXqRGJrg&t=2074s
+git : https://github.com/codekerala/laravel-vue-js-spa-invoice
+
