@@ -1,0 +1,115 @@
+youtube : https://www.youtube.com/watch?v=LZcwmzTdcLE
+git : https://github.com/codekerala/laravel-and-vue.js-spa-Recipe-Box
+
+- laravel create : laravel new spa-invoice
+- set .env files
+- install vue-router, axios
+- webpack.mix.js
+
+- buat model : php artisan make:model Recipe -m
+- buat model : php artisan make:model RecipeIngredient -m
+- buat model : php artisan make:model RecipeDirection -m
+
+- isi user migration 
+- isi recipes migration
+- isi recipes indgredient migration
+- isi recipe direction migration
+
+- isi recipe model
+- isi model recipedirection
+- isi model recipeindgredient
+- isi model user
+
+- user table seeder
+- recipes table seeder
+
+- php artisan make:controller AuthController
+- php artisan make:controller RecipeController
+
+- routes -> api.php -> isi
+
+- masuk App\Http\AuthController.php -> use hash;
+
+- isi RecipeController
+
+- masuk welcome.blade.php - isi 
+
+- masuk app.js - isi
+
+- folder router/index.js - isi
+
+- isi App.vue nya
+
+- buat folder views\Auth\Register.vue - isi
+
+- buat folder js\helper\api.js - isi - implementasikan di register.vue
+
+- buat folder js\helper\Flash.js - isi
+
+- masuk App.js implementasikan flash js nya..
+
+- masuk router daftarkan login.vue
+
+- bikin file js/views/Auth/Login.vue
+
+- buat folder js/store/auth.vue - isi - implementasikan ke App.vue
+
+- tambahkan auth di authcontroller.php
+
+- buat views\Recipes\Index.vue - isi
+
+- buat views\Recipes\Show.vue - isi
+
+- buat views\Recipes\Form.vue - isi
+
+- buat js\Components\Upload.vue - isi
+
+- buat js\Components\ImagePreview.vue - isi
+
+- masuk Form.vue - modifikasi
+
+- buat js\helpers\form.js - isi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
